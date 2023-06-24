@@ -21,6 +21,10 @@ nav .logo{
     margin: 0 auto;
     background-color: #435B66;
 }
+#first-nav img{
+    width: 5%;
+    height: 50%;
+}
 #big-nav{
     background: rgb(45,67,86);
     background: linear-gradient(0deg, rgba(45,67,86,0.7147992986257004) 0%, rgba(45,67,86,1) 100%); 
@@ -49,6 +53,7 @@ nav .logo{
 }
 .carma-btn:hover{
     color: #A76F6F;
+    background-color: #536871;
 }
 .logo{
     font-size: 30px;
@@ -57,4 +62,20 @@ nav .logo{
     background-color: #A76F6F;
     margin-left: 15%;
     margin-bottom: 1%;
+}
+@media only screen and (max-width: 1000px) {
+    .carma-btn{
+        font-size: 8pt;
+    }
+    .donate{
+        font-size: 8pt;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .carma-btn{
+        display: none;
+    }
+    .donate{
+        display: none;
+    }
 }
