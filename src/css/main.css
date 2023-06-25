@@ -5,13 +5,38 @@
 }
 header{
     width: 100%;
-    min-height: 500px;
+    min-height: 100vh;
     background: url(../images/jumborton.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: -3.7%;
+    margin-top: 15%;
     z-index: -1;
+    position: relative;
+}
+section{
+    position: relative;
+    background-color: #EAB2A0;
+}
+header h1{
+    margin-top: 20%;
+    margin-left: 10%;
+    color: #EAB2A0;
+    text-shadow: 2px 2px 4px black;
     position: absolute;
+}
+header .main-p{
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 80%;
+    color: #EAB2A0;
+    text-shadow: 2px 2px 4px black;
+    position: absolute;
+}
+#header-bg{
+    width: 100%;
+    height: 80vh;
+    background-color: #435b669a;
+    margin-top: -25%;
 }
 nav .logo{
     font-size: 36pt;
@@ -38,6 +63,66 @@ nav .logo{
 }
 #second-nav .w3-col{
     height: 100%;
+}
+#card1{
+    background-color: #a76f6f;
+}
+#card2{
+    background-color: #b67e7a;
+}
+#card3{
+    background-color: #c58d85;
+}
+#card4{
+    background-color: #cd958b;
+}
+.employee{
+    background-color: #EAB2A0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 5%;
+}
+.employee .row{
+    width: 80%;
+    margin: 0 auto;
+}
+.employee img{
+    width: 25%;
+    background-color: #A76F6F;
+    border-radius: 50%;
+    position: static;
+    float: left;
+    margin: 5%;
+}
+.employee h1,p{
+    width: 70%;
+    margin: 0;
+}
+.bg-1{
+    background-color: #EAB2A0;
+}
+.bg-2{
+    background-color: #cd958b;
+}
+.bg-3{
+    background-color: #b67e7a;
+}
+.bg-4{
+    background-color: #A76F6F;
+}
+.bg-1 img{
+    background-color: #A76F6F;
+}
+.bg-2 img{
+    background-color: #b67e7a;
+}
+.bg-3 img{
+    background-color: #c58d85;
+}
+.bg-4 img{
+    background-color: #EAB2A0;
 }
 .carma-btn{
     background-color: #435B66;
